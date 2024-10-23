@@ -25,9 +25,11 @@ export const setInLocalStorage = (productIn) => {
         // Si existe debe remplazarse
         productInLocal[existingIndex] = productIn;
         }else {
+            // Si no lo agregase
         productInLocal.push(productIn);
         }
-    
+        
+        // Seteamos el nuevo array
         localStorage.setItem("products", JSON.stringify(productInLocal));  
     }
 

@@ -300,3 +300,34 @@
   background-color: red;
   transition: 0.2s ease;
 }
+
+/* Media querys */
+
+@media screen and (min-width:1280px){
+
+  .constainerProductStore{
+    grid-template-columns: repeat(4, 0.6fr);
+  }
+  
+  .containerTargetItem{
+    width: 15vw;
+  }
+
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar{
+  width: 0.7rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e3f72;
+  border-radius: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #5e7faf;
+}

@@ -1,7 +1,8 @@
 /* ==== STORE ==== */
 
-import { openModal, setproductoActivo } from "../../main";
+import { setproductoActivo } from "../../main";
 import { handleGetProductLocalStorage } from "../persistence/localStorage";
+import { openModal } from "./modal";
 
 // Traemos los elementos y llamamos al render
 export const handleGetProductsToStore = () => {
@@ -9,7 +10,7 @@ export const handleGetProductsToStore = () => {
     handleRenderList(products); 
 };
 
-// Filtra y renderiza la seccion con tsus respectivos elementos
+// Filtra y renderiza la seccion con sus respectivos elementos
 export const handleRenderList = (productosIn) => {
 
     // Filtrado de array por categorias
