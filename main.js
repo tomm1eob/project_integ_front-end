@@ -4,9 +4,7 @@ import { handleGetProductsToStore } from "./src/views/store";
 import './style.css'
 
 // Aplicacion
-
 handleGetProductsToStore();
-
 rederCategories();
 
 // Products //
@@ -14,7 +12,7 @@ rederCategories();
 const cancelButton = document.getElementById("cancelButton");
 cancelButton.addEventListener("click", () => {
   closeModal();
-})
+});
 
 
 // PopUp //
@@ -22,20 +20,20 @@ cancelButton.addEventListener("click", () => {
 const buttonAdd = document.getElementById("buttonAddElement");
 buttonAdd.addEventListener("click", () => {
   openModal();
-})
+});
 
 // Funciones Abrir y Cerrar modal
 const openModal = () => {
   const modal = document.getElementById("modalPopUP");
   modal.style.display = "flex";
 
-}
+};
 
 const closeModal = () => {
   const modal = document.getElementById("modalPopUP");
   modal.style.display = "none";
 
-}
+};
 
 // Funciones modificar o eliminar elementos
 const acceptButton = document.getElementById("acceptButton");
@@ -55,7 +53,8 @@ const handleSaveOrModifyElements = () => {
     imagen,
     precio,
     categories
-   }
+   };
    setInLocalStorage(object)
-   // closeModal();
-}
+   handleGetProductsToStore();
+   closeModal();
+};

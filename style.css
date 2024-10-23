@@ -46,6 +46,7 @@
 }
 
 .buttonSearch{
+  font-size: 1vw;
   border: 1px solid white;
   background-color: transparent;
   border-radius: 0.4rem;
@@ -65,7 +66,9 @@
 }
 
 .header_buttonAdd{
-  width: 15vw;
+  width: 10vw;
+  height: 5vh;
+  font-size: 1vw;
   border-radius: 0.4rem;
   padding: 0.4rem;
   border: 1px solid white;
@@ -74,6 +77,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px;
 }
 
 .header_buttonAdd:hover{
@@ -96,8 +100,71 @@
 
 /* ==== STORE ==== */
 .store{
-  background-color: purple;
-  height: 92vh;
+  background-color: #eeee;
+  max-height: 92vh;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.seccionStore{
+  background-color: #fff;
+  margin: 1rem;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.constainerProductStore{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 0.6fr);
+  gap: 2vh;
+}
+
+.containerTargetItem{
+  width: 20vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.4rem;
+  box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+  background-color: white;
+}
+
+.containerTargetItem:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+.containerTargetItem h2{
+  font-size: 2vh;
+  text-align: center;
+  padding: 5px;
+}
+
+.containerTitleSection{
+  margin: 1rem;
+  font-size: 3vh;
+  border-bottom: 1px solid gray;
+}
+
+.targetProps{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.seccionStore img {
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* ==== LISTASIDE ==== */
