@@ -24,3 +24,15 @@ Aunque el proyecto ya debería funcionar como se requiere con lo anterior mencio
 fnm env --use-on-cd | Out-String | Invoke-Expression
 npm install sweetalert2
 ```
+
+### Recursos
+Se deja a disposición links de imágenes que se usaron en el proyecto para su prueba.
+
+###### Papas
+https://gustosopaladar.com/wp-content/uploads/2023/01/papas-fritas-en-freidora-de-aire-1024x683.png
+
+###### Hamburguesas
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/NCI_Visuals_Food_Hamburger.jpg/273px-NCI_Visuals_Food_Hamburger.jpg
+
+###### Gaseosa
+https://distribuidoranimax.com.ar/wp-content/uploads/2023/07/coca-cola-500cc-almacen-gaseosas-casa-segal-mendoza.jpg
