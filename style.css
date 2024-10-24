@@ -301,7 +301,7 @@
   transition: 0.2s ease;
 }
 
-/* Media querys */
+/* MEDIA QUERYS */
 
 @media screen and (min-width:1280px){
 
@@ -315,7 +315,7 @@
 
 }
 
-/* ScrollBar */
+/* SCROLLBARR */
 
 ::-webkit-scrollbar{
   width: 0.7rem;
